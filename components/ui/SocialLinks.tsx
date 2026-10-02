@@ -1,6 +1,6 @@
 import { socials } from "@/lib/data";
 
-const paths: Record<(typeof socials)[number]["name"], React.ReactNode> = {
+const paths: Record<string, React.ReactNode> = {
   instagram: (
     <>
       <rect x="3" y="3" width="18" height="18" rx="5" />
