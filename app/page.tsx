@@ -6,10 +6,12 @@ import BookingCta from "@/components/sections/BookingCta";
 import Events from "@/components/sections/Events";
 import Gallery from "@/components/sections/Gallery";
 import CommunityCta from "@/components/sections/CommunityCta";
+import JsonLd from "@/components/seo/JsonLd";
 
 export default function HomePage() {
   return (
     <>
+      <JsonLd />
       <Hero />
       <FeatureStrip />
       <About />
